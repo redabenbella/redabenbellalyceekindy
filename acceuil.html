@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="og:type" content="education" />
+    <meta name="og:title" content="School - Page Web Design" />
+    <meta name="og:locale" content="en_US" />
+    <meta name="og:site_name" content="School" />
+ 
+    
+    <link rel="icon" href="img/logo1.png" type="image/png" />
+    <title>BTS</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+  </head>
+  <body>
+
+    <section class="header">
+      <nav>
+        <a href=""><img src="img/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="acceuil.html">Acceuil</a></li>
+            <li><a href="A propos/apropos.html">A propos</a></li>
+            <li><a href="Cours/cours.html">Cours</a></li>
+            <li><a href="Certificat/certificat.html">Certificat</a></li>
+            <li><a href="contact/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Brevet Technicien Supérieur</h1>
+        <p>
+            Meilleurs vœux pour une expérience universitaire fructueuse et gratifiante !
+        </p>
+        <a href="about/about.html" class="hero-btn">Pour plus d'informations</a>
+      </div>
+    </section>
+
+ 
+
+    <section class="course">
+      <h1>Nos fileres</h1>
+      <p>Explorez nos Filières d'Excellence : Des Chemins Diversifiés vers la Réussite Universitaire</p>
+
+      <div class="row pt-5 justify-content-between pb-5">
+        <div class="course-col">
+          <h3>Developpement informatique</h3>
+          <p>La filière de développement informatique offre aux étudiants une formation approfondie dans la création et l'optimisation de solutions logicielles. En mettant l'accent sur la programmation, la conception de logiciels, la gestion de projets et la résolution de problèmes informatiques, les étudiants acquièrent une expertise polyvalente.</p>
+        </div>
+        <div class="course-col ml-3">
+          <h3>Economique et gestion</h3>
+          <p>Les étudiants explorent les principes fondamentaux de l'économie, apprennent à prendre des décisions stratégiques, étudient la gestion des ressources financières et développent des compétences en planification d'entreprise. Ces filières préparent les étudiants à des carrières diversifiées, allant de l'analyse financière à la gestion des ressources humaines, en passant par l'entrepreneuriat et les affaires internationales.</p>
+        </div>
+        <div class="course-col">
+          <h3>Intelligence artificielle</h3>
+          <p>La filière d'Intelligence Artificielle à notre université propose un programme académique dynamique mettant l'accent sur la compréhension approfondie des principes fondamentaux de l'IA. Les étudiants explorent des sujets variés tels que l'apprentissage automatique, la vision par ordinateur et le traitement du langage naturel, renforçant leurs compétences en mathématiques, en algorithmes et en programmation.</p>
+        </div>
+      </div>
+    </section>
+
+  
+
+    
+
+    <section class="facilities">
+      <h1>Nos espaces</h1>
+      <p>Exploration des Espaces Universitaires</p>
+
+      <div class="row justify-content-evenly">
+        <div class="facilities-col">
+          <img src="img/library.png" alt="library" />
+          <h3>Bibliothèque de classe</h3>
+          <p>Plongez dans l'Univers de Connaissances de Notre Bibliothèque de Classe</p>
+        </div>
+        <div class="facilities-col">
+          <img src="img/terrain.png" alt="library" />
+          <h3>Terrain de jeu</h3>
+          <p>Votre Terrain de Jeu Académique pour l'Exploration et la Réalisation</p>
+        </div>
+        <div class="facilities-col">
+          <img src="img/buvet.png" alt="library" />
+          <h3>Buvette</h3>
+          <p>La Buvette de l'Université, Votre Destination Conviviale entre Cours et Discussions</p>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section class="testimonials">
+      <h1>Ce que dit nos étudiants</h1>
+      <p>Découvrez l'Université à travers les Yeux de nos Étudiants!</p>
+
+      <div class="row pt-5 justify-content-between">
+        <div class="testimonials-col">
+          <img src="img/user1.jpg" alt="Profile" />
+          <div>
+            <p>Je suis vraiment impressionné par la qualité des cours et des enseignants en sciences de l'informatique. L'université offre des ressources exceptionnelles pour la programmation et la recherche. Les projets pratiques sont stimulants, et je me sens bien préparé pour une carrière dans le domaine.</p>
+            <h3>Nouhaila Idrissi</h3>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+        </div>
+        <div class="testimonials-col">
+          <img src="img/user2.jpg" alt="Profile" />
+          <div>
+            <p>Les cours d'économie sont exigeants mais très instructifs. Les professeurs sont accessibles et toujours prêts à aider. J'aime aussi la variété des clubs et des événements organisés par l'université. Cela crée une communauté étudiante dynamique.</p>
+            <h3>Ahmed Sabiri</h3>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <section class="cta">
+      <h1>
+        Inscrivez-vous à nos différents cours en ligne
+      </h1>
+      <a href="contact/contact.html" class="hero-btn">Contactez nous</a>
+    </section>
+
+ 
+
+    <section class="footer">
+      <h4>A propos</h4>
+      <p>
+        Excellence Académique, Diversité, et Engagement Communautaire
+      </p>
+      <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-telegram"></i>
+      </div>
+
+    </section>
+
+    
+  </body>
+</html>
